@@ -63,13 +63,21 @@ tokenSources['ticket'] = {
     },
 }
 ```
-#### 运行与使用
+#### 安装与使用
 ##### 环境与依赖项
 - Centos 7.x
 - Python 3.6
 - pip3 >20.x.x
 - tornado >=5.1.1
 - redis >=3.0.1
+##### 安装
+- wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py
+- python3 get-pip.py
+- pip3 install tornado==5.1.1
+- yum install redis
+- systemctl start redis
+- systemctl enable redis
+
 ##### 后台运行
 ```nohup python3 main.py & ```
 
