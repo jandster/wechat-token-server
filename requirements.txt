@@ -1,2 +1,9 @@
-tornado==5.1.1
-redis==3.0.1
+#tornado==5.1.1
+#redis==3.0.1
+---2020-09-02 测试---
+Centos 7.x
+Python 3.6.x
+pip3 >= 19.x.x
+tornado >=5.1.1
+redis >=3.0.1
+--------------------
